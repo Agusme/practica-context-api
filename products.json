@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "nombre": "Zapatillas Street Runner",
+    "precio": 25000,
+    "descripcion": "Zapatillas deportivas urbanas, ligeras y resistentes. Perfectas para combinar estilo y comodidad en el día a día.",
+    "imagen": "https://images.pexels.com/photos/11324526/pexels-photo-11324526.jpeg?_gl=1*1aeuswq*_ga*ODM2ODk0NjAxLjE3NTYyMTE3NTQ.*_ga_8JE65Q40S6*czE3NTYyMTE3NTMkbzEkZzEkdDE3NTYyMTI1NjckajEwJGwwJGgw"
+  },
+  {
+    "id": "2",
+    "nombre": "Remera Essential Oversize",
+    "precio": 12000,
+    "descripcion": "Remera oversize de algodón suave, ideal para un look casual y relajado con máxima frescura.",
+    "imagen": "https://images.pexels.com/photos/9558265/pexels-photo-9558265.jpeg?_gl=1*5gpvit*_ga*ODM2ODk0NjAxLjE3NTYyMTE3NTQ.*_ga_8JE65Q40S6*czE3NTYyMTE3NTMkbzEkZzEkdDE3NTYyMTIzODYkajUyJGwwJGgw"
+  },
+  {
+    "id": "3",
+    "nombre": "Mochila Explorer",
+    "precio": 18000,
+    "descripcion": "Mochila espaciosa y resistente al agua, ideal para viajes, estudio o actividades al aire libre.",
+    "imagen": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?_gl=1*ga0k8p*_ga*ODM2ODk0NjAxLjE3NTYyMTE3NTQ.*_ga_8JE65Q40S6*czE3NTYyMTE3NTMkbzEkZzEkdDE3NTYyMTI0NTUkajQzJGwwJGgw"
+  }
+]

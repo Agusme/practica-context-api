@@ -1,69 +1,21 @@
-# React + TypeScript + Vite
+## EJEMPLOS PRÁCTICOS DE CONTEXT API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue desarrollado con el objetivo de practicar el uso nativo de Context API en React.
+Incluye dos ejemplos sencillos y funcionales:
 
-Currently, two official plugins are available:
+### 🔤 Ejemplo 1: Cambio de idioma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Permite alternar entre inglés y español dinámicamente.
+### 🛒 Ejemplo 2: Carrito de compras
+Agregar y quitar productos de un carrito de manera interactiva.
+### 🚀 Tecnologías utilizadas
+- React Vite
+- Context Api
+### 📌 Objetivo
+Brindar una base práctica para comprender cómo compartir y manejar estado global en aplicaciones React sin necesidad de librerías externas.
 
-## Expanding the ESLint configuration
+### 👩🏽‍💻Autora:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Agustina Mena [Linkedin](https://www.linkedin.com/in/agustina-mena-169298204/) | [Github](https://github.com/Agusme) | [Portfolio](https://portfolioagustinamena.netlify.app/)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
