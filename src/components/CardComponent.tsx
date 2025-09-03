@@ -1,6 +1,6 @@
 
 import { PlusIcon } from '@heroicons/react/16/solid'
-import products from '../../../practica/products.json'
+import products from '../../products.json';
 import { useContext } from 'react'
 import { CartContext } from '../context/CartContext'
 
