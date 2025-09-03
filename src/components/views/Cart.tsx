@@ -10,7 +10,7 @@ export default function Cart() {
 <div className="container mx-auto ">
 <CardComponent/>
 
-<div className="my-10">
+<div className="m-10">
 <ul>
       <h2 className="text-3xl font-semibold">Carrito</h2>
 
